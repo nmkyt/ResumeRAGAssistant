@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+
+# Окружение
+.venv/
+venv/
+.env
+
+# Инструменты
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+
+# IDE / ОС
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Данные: резюме содержат персональные данные, индекс пересобирается
+data/resumes/*
+!data/resumes/.gitkeep
+data/index/
+
+# Кэш моделей HuggingFace, если вынесен в проект
+.cache/

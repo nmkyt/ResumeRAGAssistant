@@ -1,0 +1,13 @@
+# Используется BuildKit для infra/Dockerfile (контекст сборки — корень репозитория)
+.git
+.gitignore
+.venv
+.idea
+.vscode
+.env
+**/__pycache__
+.pytest_cache
+.ruff_cache
+data
+tests
+infra
